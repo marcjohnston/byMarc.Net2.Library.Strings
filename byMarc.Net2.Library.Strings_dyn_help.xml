@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="byMarc.Net2.Library.Strings" Title="byMarc.Net2.Library.Strings Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.AllHaveValue" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000003.html" LinkGroup="byMarc.Net2.Library.Strings">AllHaveValue Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.AnyHasValue" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000004.html" LinkGroup="byMarc.Net2.Library.Strings">AnyHasValue Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.BuildPath" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000006_overloads--.html" LinkGroup="byMarc.Net2.Library.Strings">BuildPath Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.BuildPath" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000005_overloads--.html" LinkGroup="byMarc.Net2.Library.Strings">BuildPath Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.CompareLeadingNumeric" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000007.html" LinkGroup="byMarc.Net2.Library.Strings">CompareLeadingNumeric Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.DelimitIf" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000008.html" LinkGroup="byMarc.Net2.Library.Strings">DelimitIf Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.Duplicate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000009.html" LinkGroup="byMarc.Net2.Library.Strings">Duplicate Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.EncapsulateIf" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_000000000000000A.html" LinkGroup="byMarc.Net2.Library.Strings">EncapsulateIf Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.EncapsulateInQuotes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_000000000000000B.html" LinkGroup="byMarc.Net2.Library.Strings">EncapsulateInQuotes Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.EnsurePrefix" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_000000000000000C.html" LinkGroup="byMarc.Net2.Library.Strings">EnsurePrefix Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.EnsureSuffix" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_000000000000000D.html" LinkGroup="byMarc.Net2.Library.Strings">EnsureSuffix Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.ExtractText" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_000000000000000E.html" LinkGroup="byMarc.Net2.Library.Strings">ExtractText Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.IfEmpty" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_000000000000000F.html" LinkGroup="byMarc.Net2.Library.Strings">IfEmpty Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.IsAlpha" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000011_overloads--.html" LinkGroup="byMarc.Net2.Library.Strings">IsAlpha Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.IsAlpha" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000010_overloads--.html" LinkGroup="byMarc.Net2.Library.Strings">IsAlpha Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.IsAlphaNumeric" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000013_overloads--.html" LinkGroup="byMarc.Net2.Library.Strings">IsAlphaNumeric Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.IsAlphaNumeric" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000012_overloads--.html" LinkGroup="byMarc.Net2.Library.Strings">IsAlphaNumeric Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.IsDigit" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000014.html" LinkGroup="byMarc.Net2.Library.Strings">IsDigit Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.IsDigits" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000015.html" LinkGroup="byMarc.Net2.Library.Strings">IsDigits Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.IsEnclosed" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000016_overloads--.html" LinkGroup="byMarc.Net2.Library.Strings">IsEnclosed Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.IsEnclosed" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000017_overloads--.html" LinkGroup="byMarc.Net2.Library.Strings">IsEnclosed Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.IsHexadecimal" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000018.html" LinkGroup="byMarc.Net2.Library.Strings">IsHexadecimal Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.IsLowerAlpha" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_000000000000001A_overloads--.html" LinkGroup="byMarc.Net2.Library.Strings">IsLowerAlpha Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.IsLowerAlpha" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000019_overloads--.html" LinkGroup="byMarc.Net2.Library.Strings">IsLowerAlpha Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.IsUpperAlpha" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_000000000000001C_overloads--.html" LinkGroup="byMarc.Net2.Library.Strings">IsUpperAlpha Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.IsUpperAlpha" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_000000000000001B_overloads--.html" LinkGroup="byMarc.Net2.Library.Strings">IsUpperAlpha Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.IsUpperAlphaNumeric" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_000000000000001E_overloads--.html" LinkGroup="byMarc.Net2.Library.Strings">IsUpperAlphaNumeric Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.IsUpperAlphaNumeric" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_000000000000001D_overloads--.html" LinkGroup="byMarc.Net2.Library.Strings">IsUpperAlphaNumeric Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.JoinList" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000021_overloads--.html" LinkGroup="byMarc.Net2.Library.Strings">JoinList Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.JoinList" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_000000000000001F_overloads--.html" LinkGroup="byMarc.Net2.Library.Strings">JoinList Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.JoinList" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000020_overloads--.html" LinkGroup="byMarc.Net2.Library.Strings">JoinList Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.Plural" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000024_overloads--.html" LinkGroup="byMarc.Net2.Library.Strings">Plural Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.Plural" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000023_overloads--.html" LinkGroup="byMarc.Net2.Library.Strings">Plural Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.Plural" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000025_overloads--.html" LinkGroup="byMarc.Net2.Library.Strings">Plural Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.PrefixIf" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000022.html" LinkGroup="byMarc.Net2.Library.Strings">PrefixIf Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000002.html" LinkGroup="byMarc.Net2.Library.Strings">StringLib Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.SuffixIf" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000026.html" LinkGroup="byMarc.Net2.Library.Strings">SuffixIf Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings.StringLib.TryParseLeadingDouble" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000027.html" LinkGroup="byMarc.Net2.Library.Strings">TryParseLeadingDouble Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000029.html" LinkGroup="byMarc.Net2.Library.Strings">byMarc.Net2.Library.Strings Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="byMarc.Net2.Library.Strings Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:byMarc.Net2.Library.Strings.chm::/topic_0000000000000028.html" LinkGroup="byMarc.Net2.Library.Strings">byMarc.Net2.Library.Strings Reference</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+

@@ -1,0 +1,293 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <title>Menu</title>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+<style>
+html { font-family:sans-serif; background-color:#ffffff; font-size:75%;}
+a { text-decoration:none; color:rgb(0,51,102) }
+.header a { color:#000!important }
+.item { border:solid 0px #000; padding:0.25em; margin-left:1em }
+.header, .leaf { cursor:pointer; padding-left:19px; min-height:18px; line-height:18px; white-space:nowrap;}
+.closed { background:url(bookC.gif) no-repeat }
+.open { background:url(bookE.gif) no-repeat }
+.leaf { background:url(leaf.gif) no-repeat }
+</style>
+
+<script>
+function toggle(idsub,elhead) {
+    var elsub = document.getElementById(idsub);
+    if(elsub.style.display=="block")
+        elsub.style.display = "none";
+    else
+        elsub.style.display="block";
+        
+    if(elhead.className=="header open")
+        elhead.className = "header closed";
+    else
+        elhead.className = "header open";
+}
+
+function expandLinkInToc(url) {
+	var link = findLink(url);
+	//alert(link);
+	//alert(link.innerHTML);
+	if(!isElementVisible(link)) {
+		expandElementAndParents(link);
+	}
+	link.scrollIntoView(true);
+	link.focus();
+}
+
+function expandElementAndParents(elm) {
+	if(elm.style) {
+		if(elm.style.display=="none") {
+			//elm is container with subtopics
+			elm.style.display="block";
+			// process also chapter header
+			var id = elm.getAttribute("id");
+			id = id.substring(1);
+			var elHead = document.getElementById(id);
+			if(elHead.className=="header closed") {
+				elHead.className = "header open";
+			}
+		}
+	}
+	// process parents
+	if (elm.parentNode) {
+		expandElementAndParents(elm.parentNode);
+	}
+}
+
+function findLink(url) {
+	var links = document.links;
+	var i;
+	for (i=0; i<links.length; i++) {
+		if (links[i].href == url) {
+			return links[i];
+		}		
+	}
+	return null;
+} 
+
+function isElementVisible(elm) {
+	if(elm.style) {
+		if(elm.style.display == "none") {
+			return false;
+		}
+	}
+	if (elm.parentNode) {
+		return isElementVisible(elm.parentNode);
+	} else {
+		return true;
+	}
+}
+</script>
+
+</head>
+
+<body>
+    
+						 		<div id="1" class="header closed" onclick="toggle('c1',this)">
+   
+  		<a href="topic_0000000000000028.html" target="vbdocright">byMarc.Net2.Library.Strings Reference</a>
+ 
+		</div>
+     <div id="c1" class="item" style="display:none">
+		
+     
+
+       <div id="2" class="header closed" onclick="toggle('c2',this)">
+    <a href="topic_0000000000000029.html" target="vbdocright">byMarc.Net2.Library.Strings Namespace</a>
+    </div>
+    <div id="c2" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+						    <div id="3" class="header closed" onclick="toggle('c3',this)">
+    <a href="topic_0000000000000002.html" target="vbdocright">StringLib Class</a>
+    </div>
+    <div id="c3" class="item" style="display:none">
+		
+ 		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="leaf"><a href="topic_0000000000000002_members--.html" target="vbdocright">StringLib Members</a></div>
+
+
+
+
+
+
+
+
+
+
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="4" class="header closed" onclick="toggle('c4',this)">
+    <a href="topic_0000000000000002_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c4" class="item" style="display:none">
+		
+						  <div class="leaf"><a href="topic_0000000000000003.html" target="vbdocright">AllHaveValue Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000004.html" target="vbdocright">AnyHasValue Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000005_overloads--.html" target="vbdocright">BuildPath Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000007.html" target="vbdocright">CompareLeadingNumeric Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000008.html" target="vbdocright">DelimitIf Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000009.html" target="vbdocright">Duplicate Method</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000000A.html" target="vbdocright">EncapsulateIf Method</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000000B.html" target="vbdocright">EncapsulateInQuotes Method</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000000C.html" target="vbdocright">EnsurePrefix Method</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000000D.html" target="vbdocright">EnsureSuffix Method</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000000E.html" target="vbdocright">ExtractText Method</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000000F.html" target="vbdocright">IfEmpty Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000010_overloads--.html" target="vbdocright">IsAlpha Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000012_overloads--.html" target="vbdocright">IsAlphaNumeric Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000014.html" target="vbdocright">IsDigit Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000015.html" target="vbdocright">IsDigits Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000016_overloads--.html" target="vbdocright">IsEnclosed Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000018.html" target="vbdocright">IsHexadecimal Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000019_overloads--.html" target="vbdocright">IsLowerAlpha Method</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000001B_overloads--.html" target="vbdocright">IsUpperAlpha Method</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000001D_overloads--.html" target="vbdocright">IsUpperAlphaNumeric Method</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000001F_overloads--.html" target="vbdocright">JoinList Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000023_overloads--.html" target="vbdocright">Plural Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000022.html" target="vbdocright">PrefixIf Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000026.html" target="vbdocright">SuffixIf Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000027.html" target="vbdocright">TryParseLeadingDouble Method</a></div>
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+ 
+
+  
+		</div>
+ 
+
+
+
+		
+		
+</body>
+</html>
