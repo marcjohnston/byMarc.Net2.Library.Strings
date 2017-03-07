@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="GENERATOR" content="VSdocman - documentation generator; http://www.helixoft.com" />
-	<title>StringLib.ExtractText Method</title>
+	<title>StringLib.EnsurePrefix Method</title>
 
 	<link rel="stylesheet" type="text/css" href="msdn10_lightweight/msdn10_lightweight.css"></link>
 	<script src="msdn10_lightweight/msdn10_lightweight.js" type="text/javascript"></script>
@@ -59,7 +59,7 @@ function replaceTitleAndUrl(win, title, url) {
 <!--HEADER START-->
   <div id="header">
   	<div id="runningHeaderText">byMarc.Net2.Library.Strings Reference</div>
-  	<h1 class="title">StringLib.ExtractText Method</h1>
+  	<h1 class="title">StringLib.EnsurePrefix Method</h1>
   	<div id="headerLinks">
 
 	<a href="#seeAlsoSection">See Also</a>
@@ -73,11 +73,11 @@ function replaceTitleAndUrl(win, title, url) {
       <div id="mainBody">
         <p />
        
-        Returns a substring found within a another string.  A starting position, prefix and suffix can all be specified to identify the location of the text to extract.
+        Returns a string with a specific prefix.  The original string is returned if it already contains the prefix; otherwise the prefix is concatenated to it.
 
 
         <p /><strong>Namespace:</strong>
-<a href="topic_0000000000000029.html">byMarc.Net2.Library.Strings</a>
+<a href="topic_000000000000002B.html">byMarc.Net2.Library.Strings</a>
 
 
 
@@ -132,7 +132,7 @@ function replaceTitleAndUrl(win, title, url) {
 				</div>
 				
 				<div class="codeSnippetCode codeVB">
-					<pre xml:space="preserve" class="brush: vb">Public Shared Function ExtractText( _&nbsp;<br />   ByVal <i>text</i> As <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">String</a>, _&nbsp;<br />   ByVal <i>startPosition</i> As <a target="_top" href="http://msdn2.microsoft.com/en-us/library/b3h38hb0.aspx">Nullable</a>(Of <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.int32.aspx">Integer</a>), _&nbsp;<br />   ByVal <i>prefixText</i> As <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">String</a>, _&nbsp;<br />   ByVal <i>suffixText</i> As <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">String</a>, _&nbsp;<br />   Optional ByRef <i>nextPosition</i> As <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.int32.aspx">Integer</a> = 0 _&nbsp;<br />) As <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">String</a></pre>			
+					<pre xml:space="preserve" class="brush: vb">Public Shared Function EnsurePrefix( _&nbsp;<br />   ByVal <i>prefix</i> As <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">String</a>, _&nbsp;<br />   ByVal <i>value</i> As <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">String</a> _&nbsp;<br />) As <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">String</a></pre>			
 				</div>
 				<div class="codeSnippetCode codeNA">
 					<pre xml:space="preserve">This language is not supported or no code example is available.</pre>			
@@ -168,7 +168,7 @@ function replaceTitleAndUrl(win, title, url) {
 				</div>
 				
 				<div class="codeSnippetCode codeCsharp">
-					<pre xml:space="preserve" class="brush: csharp">public static <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">string</a> ExtractText(&nbsp;<br />   <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">string</a> <i>text</i>,&nbsp;<br />   <a target="_top" href="http://msdn2.microsoft.com/en-us/library/b3h38hb0.aspx">Nullable</a>&lt;<a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.int32.aspx">int</a>&gt; <i>startPosition</i>,&nbsp;<br />   <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">string</a> <i>prefixText</i>,&nbsp;<br />   <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">string</a> <i>suffixText</i>,&nbsp;<br />   ref <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.int32.aspx">int</a> <i>nextPosition</i> = 0&nbsp;<br />)</pre>			
+					<pre xml:space="preserve" class="brush: csharp">public static <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">string</a> EnsurePrefix(&nbsp;<br />   <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">string</a> <i>prefix</i>,&nbsp;<br />   <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">string</a> <i>value</i>&nbsp;<br />)</pre>			
 				</div>
 				<div class="codeSnippetCode codeNA">
 					<pre xml:space="preserve">This language is not supported or no code example is available.</pre>			
@@ -204,7 +204,7 @@ function replaceTitleAndUrl(win, title, url) {
 				</div>
 				
 				<div class="codeSnippetCode codeCpp">
-					<pre xml:space="preserve" class="brush: cpp">public: &nbsp;<br />static <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">String</a>^ ExtractText(&nbsp;<br />   <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">String</a>^ <i>text</i>,&nbsp;<br />   <a target="_top" href="http://msdn2.microsoft.com/en-us/library/b3h38hb0.aspx">Nullable</a>&lt;<a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.int32.aspx">int</a>&gt; <i>startPosition</i>,&nbsp;<br />   <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">String</a>^ <i>prefixText</i>,&nbsp;<br />   <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">String</a>^ <i>suffixText</i>,&nbsp;<br />   <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.int32.aspx">int</a>&amp; <i>nextPosition</i>&nbsp;<br />) </pre>			
+					<pre xml:space="preserve" class="brush: cpp">public: &nbsp;<br />static <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">String</a>^ EnsurePrefix(&nbsp;<br />   <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">String</a>^ <i>prefix</i>,&nbsp;<br />   <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">String</a>^ <i>value</i>&nbsp;<br />) </pre>			
 				</div>
 				<div class="codeSnippetCode codeNA">
 					<pre xml:space="preserve">This language is not supported or no code example is available.</pre>			
@@ -240,7 +240,7 @@ function replaceTitleAndUrl(win, title, url) {
 				</div>
 				
 				<div class="codeSnippetCode codeJScript">
-					<pre xml:space="preserve" class="brush: js">JScript does not support generic types and methods.</pre>			
+					<pre xml:space="preserve" class="brush: js">public static function EnsurePrefix(&nbsp;<br />    <i>prefix</i> : <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">String</a>,&nbsp;<br />    <i>value</i> : <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">String</a>&nbsp;<br />) : <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">String</a>;</pre>			
 				</div>
 				<div class="codeSnippetCode codeNA">
 					<pre xml:space="preserve">This language is not supported or no code example is available.</pre>			
@@ -252,10 +252,10 @@ function replaceTitleAndUrl(win, title, url) {
 
 
 <h4 class="subHeading">
-	Parameters</h4><dl paramName="text">
+	Parameters</h4><dl paramName="prefix">
 	<dt>
 		<span class="parameter">
-			text
+			prefix
 		</span>
 	</dt>
 	<dd>
@@ -263,29 +263,14 @@ function replaceTitleAndUrl(win, title, url) {
 			Type: <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">string</a> 
 		</p>
 		<p>
-			The source text from which the substring will be returned from. 
+			 
 		</p>
 	</dd>
 </dl>
-<dl paramName="startPosition">
+<dl paramName="value">
 	<dt>
 		<span class="parameter">
-			startPosition
-		</span>
-	</dt>
-	<dd>
-		<p>
-			Type: <a target="_top" href="http://msdn2.microsoft.com/en-us/library/b3h38hb0.aspx">Nullable</a>&lt;<a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.int32.aspx">int</a>&gt; 
-		</p>
-		<p>
-			An integer position to start the search from.  If no starting position is specified, an index position of 1 (base 1) is used. 
-		</p>
-	</dd>
-</dl>
-<dl paramName="prefixText">
-	<dt>
-		<span class="parameter">
-			prefixText
+			value
 		</span>
 	</dt>
 	<dd>
@@ -293,37 +278,7 @@ function replaceTitleAndUrl(win, title, url) {
 			Type: <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">string</a> 
 		</p>
 		<p>
-			A string that is used to identify the starting location for the text to return.  The starting position will be advanced to this search text.  If this prefix text is not found, nothing is returned. 
-		</p>
-	</dd>
-</dl>
-<dl paramName="suffixText">
-	<dt>
-		<span class="parameter">
-			suffixText
-		</span>
-	</dt>
-	<dd>
-		<p>
-			Type: <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.string.aspx">string</a> 
-		</p>
-		<p>
-			A string that is used to identify where the returned text is to stop.  If this suffix text is not specified, the remaining text in the string is returned.  If the suffix text is not found, nothing is returned. 
-		</p>
-	</dd>
-</dl>
-<dl paramName="nextPosition">
-	<dt>
-		<span class="parameter">
-			nextPosition
-		</span>
-	</dt>
-	<dd>
-		<p>
-			Type: <a target="_top" href="http://msdn2.microsoft.com/en-us/library/system.int32.aspx">int</a> 
-		</p>
-		<p>
-			Returns the character index position that follows after the suffix text.  If no suffix text was specified, Len(text) + 1 is returned. 
+			 
 		</p>
 	</dd>
 </dl>
@@ -428,12 +383,12 @@ function replaceTitleAndUrl(win, title, url) {
 		<div>
 			<h4 class="subHeading">
 				Reference</h4>
-			<a href="topic_0000000000000002.html">StringLib Class</a><br />
-<a href="topic_0000000000000002_members--.html">StringLib Members</a><br />
+			<a href="topic_0000000000000004.html">StringLib Class</a><br />
+<a href="topic_0000000000000004_members--.html">StringLib Members</a><br />
 
 
 
-<a href="topic_0000000000000029.html">byMarc.Net2.Library.Strings Namespace</a><br />
+<a href="topic_000000000000002B.html">byMarc.Net2.Library.Strings Namespace</a><br />
 
 
 			
